@@ -49,7 +49,7 @@
 		       {
 			       $lc->forzar_cierre_sesion_controlador();
 		       }	
-	      }
+	      
 	?>
 
 	<!-- SideBar -->
@@ -64,7 +64,7 @@
 		<?php require_once $vistasR; ?> 
 		
 	</section>
-<?php ?>	
+			<?php }?>	
 </body>
 <?php include "vistas/modulos/script.php";?>
 </html>
