@@ -22,7 +22,7 @@
 	
 			$peticionAjax=false;
 		require_once "./controladores/vistasControlador.php";
-		require_once "./controladores/vistasControlador.php";
+		
 
 
 		$vt = new vistasControlador();
@@ -47,7 +47,7 @@
 		   if(  !isset($_SESSION['token_dipec']) || !isset($_SESSION['usuario_dipec']) )
 		
 		       {
-			    $lc->forzar_cierre_sesion_controlador();
+			       $lc->forzar_cierre_sesion_controlador();
 		       }	
 	      }
 	?>
