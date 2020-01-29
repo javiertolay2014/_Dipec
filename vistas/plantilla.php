@@ -13,7 +13,7 @@
 	<?php
 			$peticionAjax=false;
 			require_once "./controladores/vistasControlador.php";
-			require_once "./controladores/vistasControlador.php";
+		
 	
 	
 			$vt = new vistasControlador();
